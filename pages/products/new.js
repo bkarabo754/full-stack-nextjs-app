@@ -22,7 +22,7 @@ export default function NewProduct() {
     }
 
     return (
-        <Layout>
+        <Layout> 
             <form onSubmit={createProduct}>
             <h1>New Product</h1>
             <label>Product name</label>
